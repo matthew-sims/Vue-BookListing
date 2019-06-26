@@ -11,13 +11,14 @@
   export default {
     name: 'BookList',
     data: () => {
-      const books = [
-        {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
-        {title: 'American Gods', author: 'Neil Gaiman'},
-        {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
-      ];
-
-      return { title: 'All Books' };
+      return {
+        title: 'All Books',
+        books: [
+          {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+          {title: 'American Gods', author: 'Neil Gaiman'},
+          {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
+        ]
+      };
     }
   }
 </script>
