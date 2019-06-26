@@ -12,9 +12,9 @@
     name: 'BookList',
     data: () => {
       const books = [
-        {title: 'The Chronicles of Narnia', author: 'C.S. Lewis'},
-        {title: 'Harry Potter', author: 'J.K. Rowling'},
-        {title: 'Inheritance Cycle', author: 'Christopher Paolini'},
+        {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
+        {title: 'American Gods', author: 'Neil Gaiman'},
+        {title: 'Amusing Ourselves to Death', author: 'Neil Postman'},
       ];
 
       return { title: 'All Books' };
@@ -32,7 +32,7 @@
     padding: 0;
   }
 
-  ul li {
+  li {
     display: block;
     margin: 0 10px;
   }
